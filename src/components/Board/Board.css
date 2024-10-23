@@ -1,0 +1,51 @@
+.board {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+    overflow-x: auto;
+  }
+  
+  .board-column {
+    min-width: 300px;
+    flex: 1;
+  }
+  
+  .column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .column-header-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .column-header-right {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    font-size: 16px;
+  }
+  
+  .ticket-count {
+    background-color: #e6e6e6;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .column-tickets {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
